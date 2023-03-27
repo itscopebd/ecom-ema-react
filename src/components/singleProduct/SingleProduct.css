@@ -1,0 +1,42 @@
+
+.card {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.product__name {
+    font-size: 21px;
+    line-height: 25px;
+    text-align: left;
+    vertical-align: top;
+    color: #0E161A;
+}
+
+.product__price {
+    font-size: 17px;
+    line-height: 20px;
+    color: #0E161A;
+}
+
+.seller__name,
+.product__rating {
+    font-size: 12px;
+    line-height: 14px;
+    color: #2A414F;
+}
+
+.btn__card {
+    background-color: #FFE0B3;
+    width: 50%;
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+    transition: .5s;
+}
+.btn__card:hover{
+    background-color: #fc9700;
+    outline: none;
+    border: 1px solid #fc9700;
+    transition: .5s;
+}
