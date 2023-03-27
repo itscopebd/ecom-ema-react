@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    text-decoration: none;
+}
+.header{
+    height: 80px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C2B35;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+   
+}
+.menu a{
+    color: #fff;
+    
+}
+.menu a:hover{
+    color: #fff;
+    
+}
