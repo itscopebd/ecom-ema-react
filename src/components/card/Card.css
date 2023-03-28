@@ -1,4 +1,8 @@
+body{
+    position: relative;
+}
 .cardContainer{
     background-color: bisque;
     padding: 10px;
+    position: sticky;
 }
